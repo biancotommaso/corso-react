@@ -8,6 +8,7 @@ function move(dir) {
   // attenzione alle variabili undefinded
   // la if se trova il valore lo 0 lo interpreta come falso
   // se trova un valore sopra lo 0 lo interpreta come vero
+  // switch esegue diverse azioni in base a condizioni diverse
   switch (dir) {
     case 0:
       left = 10;
